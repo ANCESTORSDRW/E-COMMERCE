@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRWStore | Latest Phones, Laptops and Gadgets</title>
+
+  <!-- Font Awesome (icons) and Google Font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ============ 1. TOP INFO BAR ============ -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span><i class="fa-solid fa-truck-fast"></i> Free Shipping on Orders Over $50</span>
+      <span><i class="fa-solid fa-shield-halved"></i> 100% Original Products</span>
+      <span><i class="fa-solid fa-award"></i> 1 Year Warranty</span>
+      <span><i class="fa-solid fa-headset"></i> 24/7 Customer Support</span>
+    </div>
+  </div>
+
+  <!-- ============ 2. NAVBAR ============ -->
+  <div class="navbar">
+    <div class="container nav-inner">
+
+      <a href="#" class="logo">
+        <strong>DRWStore</strong>
+        <small>Your World, Connected</small>
+      </a>
+
+      <!-- Icons: search, sign up, wishlist, cart -->
+      <div class="nav-actions">
+        <a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" aria-label="Sign up or log in"><i class="fa-regular fa-user"></i></a>
+        <a href="#" aria-label="Wishlist" class="has-badge">
+          <i class="fa-regular fa-heart"></i><span class="badge">1234</span>
+        </a>
+        <a href="#" aria-label="Cart" class="has-badge">
+          <i class="fa-solid fa-bag-shopping"></i><span class="badge">19</span>
+        </a>
+      </div>
+
+      <!-- Hamburger (checkbox trick, no JavaScript) -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li class="has-dropdown">
+            <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Phones</a></li>
+              <li><a href="#">Laptops</a></li>
+              <li><a href="#">Smartwatches</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+  <!-- ============ 3. HERO SLIDER ============ -->
+  <section class="hero">
+
+    <!-- Slide 1 -->
+    <div class="slide slide-1">
+      <div class="container slide-inner">
+        <div class="slide-text">
+          <p class="tagline">Latest Tech. Best Prices.</p>
+          <h1>Upgrade Your World</h1>
+          <p class="desc">Discover the latest smartphones and accessories from top brands at unbeatable prices.</p>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Shop now <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="btn btn-outline">Explore deals</a>
+          </div>
+        </div>
+        <div class="slide-visual">
+          <img src="img/Google_Pixel_10_Pro_XL_-_Unlocked_Android_Smartphone_with_Gemini_-removebg-preview.png" alt="Flagship smartphone">
+          <div class="product-card">
+            <span class="pill">New Arrival</span>
+            <h2>google pixel 10 pro xl</h2>
+            <p>Titanium. So strong. So light. So Pro.</p>
+            <small>From</small>
+            <strong class="price">$1199</strong>
+            <a href="#" class="btn btn-dark">Buy now <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide slide-2">
+      <div class="container slide-inner">
+        <div class="slide-text">
+          <p class="tagline">Work Smarter. Play Harder.</p>
+          <h1>Power Up Your Day</h1>
+          <p class="desc">Thin, fast laptops for students, creators and professionals, all with warranty.</p>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Shop laptops <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="btn btn-outline">Explore deals</a>
+          </div>
+        </div>
+        <div class="slide-visual">
+          <img src="img/Digital_dreams_ai_imagined_best_laptops_for_every_budget___Premium_AI-generated_image-removebg-preview.png" alt="Slim laptop">
+          <div class="product-card">
+            <span class="pill">Best Seller</span>
+            <h2>UltraBook Air 14</h2>
+            <p>All-day battery. Featherweight design.</p>
+            <small>From</small>
+            <strong class="price">$999</strong>
+            <a href="#" class="btn btn-dark">Buy now <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide slide-3">
+      <div class="container slide-inner">
+        <div class="slide-text">
+          <p class="tagline">Small Gadgets. Big Upgrade.</p>
+          <h1>Complete Your Setup</h1>
+          <p class="desc">Smartwatches, earbuds and chargers that work with every device you own.</p>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Shop accessories <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="btn btn-outline">Explore deals</a>
+          </div>
+        </div>
+        <div class="slide-visual">
+          <img src="img/download__13_-removebg-preview.png" alt="Smartwatch">
+          <div class="product-card">
+            <span class="pill">Hot Deal</span>
+            <h2>Smart Watch Series 9</h2>
+            <p>Track your health, steps and sleep.</p>
+            <small>From</small>
+            <strong class="price">$399</strong>
+            <a href="#" class="btn btn-dark">Buy now <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- SHOP BY CATEGORY -->
+<section class="section">
+  <h2 class="title">SHOP BY CATEGORY</h2>
+  <div class="category-grid">
+    
+    <div class="cat-card">
+      <img src="img/10_amazing_Apple_iPhone_hacks_you_might_not_be_aware_of-removebg-preview.png">
+      <div>
+        <h4>Smartphones</h4>
+        <p>Latest Smartphones from Top Brands</p>
+        <a href="#">SHOP NOW →</a>
+      </div>
+    </div>
+
+    <div class="cat-card">
+      <img src="img/download__14_-removebg-preview.png">
+      <div>
+        <h4>Earbuds</h4>
+        <p>Premium Sound Unmatched Style</p>
+        <a href="#">SHOP NOW →</a>
+      </div>
+    </div>
+
+    <div class="cat-card">
+      <img src="img/Buy_Apple_Watch_-_Apple-removebg-preview.png">
+      <div>
+        <h4>Smartwatches</h4>
+        <p>Stay Connected Every Moment</p>
+        <a href="#">SHOP NOW →</a>
+      </div>
+    </div>
+
+    <div class="cat-card">
+      <img src="img/Power_Bank_for_Laptop__MacBook__iPhone___Android___Portable_USB-C_Power_Bank-removebg-preview.png">
+      <div>
+        <h4>Accessories</h4>
+        <p>Essential Accessories for Your Devices</p>
+        <a href="#">SHOP NOW →</a>
+      </div>
+    </div>
+
+    <div class="cat-card">
+      <img src="img/download__15_-removebg-preview.png">
+      <div>
+        <h4>Tablets</h4>
+        <p>Powerful, Portable, Productive</p>
+        <a href="#">SHOP NOW →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="section">
+  <div class="section-head">
+    <h2 class="title">FEATURED PRODUCTS</h2>
+    <a href="#" class="view-all">VIEW ALL PRODUCTS</a>
+  </div>
+
+  <div class="product-grid">
+    
+    <div class="product-card">
+      <span class="badge new">NEW</span>
+      <img src="img/Apple_iPhone_15_Pro_Max__256GB____Best_Price__Features___Deals-removebg-preview.png">
+      <h4>iPhone 15 Pro Max<br>256GB</h4>
+      <p class="stars">★★★★★ (138)</p>
+      <div class="price-row">
+        <span>$1199</span><button>🛒</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="img/download__17_-removebg-preview.png">
+      <h4>Samsung Galaxy<br>S24 Ultra 5G</h4>
+      <p class="stars">★★★★★ (86)</p>
+      <div class="price-row">
+        <span>$999</span><button>🛒</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="img/OnePlus_12__Glacial_White__12GB_RAM__256GB_Storage_-removebg-preview.png">
+      <h4>OnePlus 12 5G<br>256GB</h4>
+      <p class="stars">★★★★★ (74)</p>
+      <div class="price-row">
+        <span>$799</span><button>🛒</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="img/Amazon_com__Google_Pixel_8_Pro_-_Unlocked_Android_Smartphone_with_Telephoto_Lens_and_Super_Actua_Display_-_24-Hour_Battery_-_Bay_-_128_GB___Everything_Else-removebg-preview.png">
+      <h4>Google Pixel 8 Pro<br>128GB</h4>
+      <p class="stars">★★★★★ (58)</p>
+      <div class="price-row">
+        <span>$699</span><button>🛒</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="img/Xiaomi_14_Ultra-removebg-preview.png">
+      <h4>Xiaomi 14 Ultra<br>126GB</h4>
+      <p class="stars">★★★★★ (43)</p>
+      <div class="price-row">
+        <span>$899</span><button>🛒</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="img/SIM_Free_Phones_-_Cheap_Smartphone_Deals___Currys-removebg-preview.png">
+      <h4>Nothing Phone (2)<br>256GB</h4>
+      <p class="stars">★★★★★ (38)</p>
+      <div class="price-row">
+        <span>$599</span><button>🛒</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="product-card">
+      <img src="img/Apple_iPhone_18_Pro_Max_2TB_Burgundy-removebg-preview.png">
+      <h4>iphone 18 pro<br>256GB</h4>
+      <p class="stars">★★★★★ (38)</p>
+      <div class="price-row">
+        <span>$2300</span><button>🛒</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about-section">
+  <div class="about-container">
+    
+    <div class="about-left">
+      <span class="small-title">ABOUT US</span>
+      <h2>We Provide The Best<br>Smart Gadgets For You</h2>
+      <div class="years-badge">
+        <h1>25</h1>
+        <p>Years<br>experience<br>working</p>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <p>We are Takoradi's trusted phone and accessories store. We sell original smartphones, earbuds, smartwatches and tablets from top brands like iPhone, Samsung, OnePlus, and Xiaomi. Our goal is to give you original products at the best price with warranty.</p>
+      
+      <ul class="about-list">
+        <li>✔ 100% Original Products with Warranty</li>
+        <li>✔ Fast Delivery Across Ghana</li>
+        <li>✔ Best Prices & After-Sales Support</li>
+      </ul>
+
+      <button class="read-btn">LEARN MORE →</button>
+    </div>
+
+  </div>
+</section>
+</body>
+</html>
